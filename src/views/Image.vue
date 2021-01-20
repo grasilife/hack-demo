@@ -6,11 +6,10 @@
 
 <script>
 import ImageAndTitle from "@/components/ImageAndTitle";
-import avifImage from "../assets/f1-good-avif.avif";
-import jpgImage from "../assets/f1-good-jpg.jpg";
-import webpImage from "../assets/f1-good-webp.webp";
+import avifImage from "../assets/image/f1-good-avif.avif";
+import jpgImage from "../assets/image/f1-good-jpg.jpg";
+import webpImage from "../assets/image/f1-good-webp.webp";
 export default {
-  name: "Home",
   data() {
     return {
       imageList: [
