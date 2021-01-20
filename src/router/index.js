@@ -1,23 +1,23 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-
+import Image from "../views/Image.vue";
+import Video from "../views/Video.vue";
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    redirect: "/image"
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+    path: "/image",
+    name: "Image",
+    component: Image
+  },
+  {
+    path: "/video",
+    name: "Video",
+    component: Video
   }
 ];
 
