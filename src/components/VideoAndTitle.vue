@@ -2,7 +2,7 @@
   <div class="block">
     <div class="demonstration">{{ title }}({{ fileSize }})</div>
     <video style="width: 100%; height: 100%" :src="url" controls :poster="poster">
-      <source :src="url" type="video/mp4" />
+      <source :src="url" />
     </video>
   </div>
 </template>
