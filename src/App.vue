@@ -4,6 +4,7 @@
     <el-tabs v-model="activeName" @tab-click="handleClick">
       <el-tab-pane label="图片" name="image"></el-tab-pane>
       <el-tab-pane label="视频" name="video"></el-tab-pane>
+      <el-tab-pane label="互动视频" name="interactiveVideo"></el-tab-pane>
     </el-tabs>
     <router-view />
   </div>
