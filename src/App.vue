@@ -19,6 +19,10 @@ export default {
   },
 
   components: {},
+  mounted() {
+    console.log(this.$route);
+    this.activeName = this.$route.path.split("/")[1];
+  },
   methods: {
     handleClick(e) {
       console.log(e);

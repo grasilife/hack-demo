@@ -12,17 +12,17 @@ const routes = [
   },
   {
     path: "/image",
-    name: "Image",
+    name: "image",
     component: Image
   },
   {
     path: "/video",
-    name: "Video",
+    name: "video",
     component: Video
   },
   {
     path: "/interactiveVideo",
-    name: "InteractiveVideo",
+    name: "interactiveVideo",
     component: InteractiveVideo
   }
 ];
